@@ -1,0 +1,19 @@
+.large-hero{
+    position: relative;
+
+    &__text-content{
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+         left: 0;
+         text-align: center;
+         width: 100%;
+     }
+     &__title{
+         font-weight: 700;
+    color:#2f5572;
+    font-size: 4.8rem;
+
+     }
+}
+
